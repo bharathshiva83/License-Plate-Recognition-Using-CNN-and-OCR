@@ -10,8 +10,6 @@ This project aims to build an end-to-end system for Automatic License Plate Reco
 1. **License Plate Detection**: Locate the license plate in vehicle images using object detection.
 2. **Character Recognition**: Recognize the alphanumeric text from cropped license plate images.
 
----
-
 ## 📦 Dataset Description
 
 The dataset is divided into:
@@ -27,9 +25,7 @@ The dataset is divided into:
 ### 🔹 Test Set
 - 201 vehicle images (similar to Training Set 1)
 - Tasks: Detect license plates and recognize their content
-
----
-
+  
 ## 📊 Planned Workflow
 
 ### 1. 📂 Data Preprocessing
@@ -50,8 +46,6 @@ The dataset is divided into:
 ### 4. 📤 Testing & Inference
 - Run the full pipeline on the test set
 - Save predicted bounding boxes and text to a CSV
-
----
 
 ## 🛠️ Tools & Libraries
 
